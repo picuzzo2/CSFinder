@@ -8,7 +8,6 @@ C:\Users\ASUS\Desktop\2562[2]\OOD\Project\CSFinder\CSFinder\bin\Debug\netcoreapp
 C:\Users\ASUS\Desktop\2562[2]\OOD\Project\CSFinder\CSFinder\bin\Debug\netcoreapp2.2\CSFinder.pdb
 C:\Users\ASUS\Desktop\2562[2]\OOD\Project\CSFinder\CSFinder\bin\Debug\netcoreapp2.2\CSFinder.Views.dll
 C:\Users\ASUS\Desktop\2562[2]\OOD\Project\CSFinder\CSFinder\bin\Debug\netcoreapp2.2\CSFinder.Views.pdb
-C:\Users\ASUS\Desktop\2562[2]\OOD\Project\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.csprojAssemblyReference.cache
 C:\Users\ASUS\Desktop\2562[2]\OOD\Project\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.RazorAssemblyInfo.cache
 C:\Users\ASUS\Desktop\2562[2]\OOD\Project\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.RazorAssemblyInfo.cs
 C:\Users\ASUS\Desktop\2562[2]\OOD\Project\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.AssemblyInfoInputs.cache
@@ -33,3 +32,7 @@ C:\Users\ASUS\Desktop\2562[2]\OOD\Project\CSFinder\CSFinder\obj\Debug\netcoreapp
 C:\Users\ASUS\Desktop\2562[2]\OOD\Project\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Home\History.cshtml.g.cs
 C:\Users\ASUS\Desktop\2562[2]\OOD\Project\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Home\Logout.cshtml.g.cs
 C:\Users\ASUS\Desktop\2562[2]\OOD\Project\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Home\Profile.cshtml.g.cs
+C:\Users\ASUS\Desktop\2562[2]\OOD\Project\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.genruntimeconfig.cache
+C:\Users\ASUS\Desktop\2562[2]\OOD\Project\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Student\Details.cshtml.g.cs
+C:\Users\ASUS\Desktop\2562[2]\OOD\Project\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\2562[2]\OOD\Project\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.csproj.CoreCompileInputs.cache

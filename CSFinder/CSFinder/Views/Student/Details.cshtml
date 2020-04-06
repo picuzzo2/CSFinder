@@ -1,0 +1,32 @@
+﻿@model CSFinder.Models.Student
+
+@{
+    ViewData["Title"] = "Details";
+}
+
+<h1>Details</h1>
+<table>
+    <tr>
+        <th>SID</th>
+        <th>Name</th>
+        <th>ID</th>
+        <th>Type</th>
+        <th>Email</th>
+        <th>Phone</th>
+        <th>Detail</th>
+        <th>Status</th>
+    </tr>
+    @foreach(var student in ViewBag.students)
+    {
+    <tr>
+        <td>@student.SID</td>
+        <td>@student.Name</td>
+        <td>@student.ID</td>
+        <td>@student.Type</td>
+        <td>@student.Email</td>
+        <td>@student.Phone</td>
+        <td>@student.Detail</td>
+        <td>@student.Status</td>
+    </tr>
+    }
+</table>
