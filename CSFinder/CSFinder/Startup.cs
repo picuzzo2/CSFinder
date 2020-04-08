@@ -22,7 +22,8 @@ namespace CSFinder
         public void ConfigureServices(IServiceCollection services)
         {
             services.AddMvc().SetCompatibilityVersion(CompatibilityVersion.Version_2_2);
-
+            services.AddDistributedMemoryCache(); // Adds a default in-memory implementation of IDistributedCache
+            services.AddSession();
             var connection = Configuration.GetConnectionString("DefaultConnection");
             services.AddDbContext<CSFinderContext>(options => options.UseSqlite(connection));
         }
@@ -45,12 +46,13 @@ namespace CSFinder
             app.UseStaticFiles();
             app.UseCookiePolicy();
             app.UseStaticFiles();
+            app.UseSession();
 
             app.UseMvc(routes =>
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Index}/{id?}");
+                    template: "{controller=Home}/{action=Login}/{id?}");
             });
         }
     }

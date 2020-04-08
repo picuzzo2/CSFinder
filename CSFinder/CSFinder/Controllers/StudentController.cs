@@ -17,6 +17,7 @@ namespace CSFinder.Controllers
             db = _db;
         }
         
+        [Route("Details")]
         public IActionResult Details()
         {
             ViewBag.students = db.Students.ToList();
