@@ -5,42 +5,54 @@
 
 @using (Html.BeginForm("Login", "Home", FormMethod.Post))
 {
-    <fieldset>
-        <legend>Mvc Simple Login Application Demo</legend>
+    <br>
+    <br>
+    <br>
+    <div align='center'>
+        <div class="head" style="display: grid; width:60%; grid-template-columns: 50% 90%;">
+            <img src="https://s3-ap-southeast-1.amazonaws.com/img-in-th/c72f73e5ef319a9bc0fbb10a73b7ac68.jpg" alt="c72f73e5ef319a9bc0fbb10a73b7ac68.jpg" width="400" height="425" border="0" alt="csfinder" />
 
-        @Html.AntiForgeryToken()
-        @Html.ValidationSummary(true)
-        @if (@ViewBag.Message != null)
-        {
-            <div style="border: 1px solid red">
-                @ViewBag.Message
+            <div class="body" style="place-self: center;">
+                <div style="line-height: 80%;">
+                    <h1>Welcome Back!</h1>
+                </div>
+                <div style="line-height: 90%;">
+                    <h2>Login Your Account</h2>
+                </div><br>
+
+                @Html.AntiForgeryToken()
+                @Html.ValidationSummary(true)
+                @if (@ViewBag.Message != null)
+                {
+                    <div style="border: 1px solid red">
+                        @ViewBag.Message
+                    </div>
+                }
+                <div class="Login">
+                    <table>
+                        <tr>
+                            <td>@Html.LabelFor(a => a.ID)</td>
+                            <td>@Html.TextBoxFor(a => a.ID)</td>
+                            <td>@Html.ValidationMessageFor(a => a.ID)</td>
+                        </tr>
+                    </table>
+                </div><br>
+                <div class="Login">
+                    <table>
+                        <tr>
+                            <td>@Html.LabelFor(a => a.Password)</td>
+                            <td>@Html.PasswordFor(a => a.Password)</td>
+                            <td>@Html.ValidationMessageFor(a => a.Password)</td>
+                        </tr>
+                    </table>
+                </div><br>
+                <tr>
+                    <td>
+                        <input type="submit" value="Login" />
+                        <a href="/home/register">Create New Account?</a>
+                    </td>
+                </tr>
             </div>
-        }
-        <table>
-            <tr>
-                <td>@Html.LabelFor(a => a.ID)</td>
-                <td>@Html.TextBoxFor(a => a.ID)</td>
-                <td>@Html.ValidationMessageFor(a => a.ID)</td>
-            </tr>
-            <tr>
-                <td>
-                    @Html.LabelFor(a => a.Password)
-                </td>
-                <td>
-                    @Html.PasswordFor(a => a.Password)
-                </td>
-                <td>
-                    @Html.ValidationMessageFor(a => a.Password)
-                </td>
-            </tr>
-            <tr>
-                <td></td>
-                <td>
-                    <input type="submit" value="Login" />
-                </td>
-                <td></td>
-            </tr>
-        </table>
-        <p></p>
-    </fieldset>
+        </div>
+    </div>
 }  

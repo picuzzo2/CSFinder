@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\CSFinder.csproj": {}
+    "D:\\Project_OOD\\CSFinder\\CSFinder\\CSFinder\\CSFinder.csproj": {}
   },
   "projects": {
-    "C:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\CSFinder.csproj": {
+    "D:\\Project_OOD\\CSFinder\\CSFinder\\CSFinder\\CSFinder.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\CSFinder.csproj",
+        "projectUniqueName": "D:\\Project_OOD\\CSFinder\\CSFinder\\CSFinder\\CSFinder.csproj",
         "projectName": "CSFinder",
-        "projectPath": "C:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\CSFinder.csproj",
-        "packagesPath": "C:\\Users\\MSI\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\obj\\",
+        "projectPath": "D:\\Project_OOD\\CSFinder\\CSFinder\\CSFinder\\CSFinder.csproj",
+        "packagesPath": "C:\\Users\\OME\\.nuget\\packages\\",
+        "outputPath": "D:\\Project_OOD\\CSFinder\\CSFinder\\CSFinder\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
         ],
         "configFilePaths": [
-          "C:\\Users\\MSI\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\OME\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
