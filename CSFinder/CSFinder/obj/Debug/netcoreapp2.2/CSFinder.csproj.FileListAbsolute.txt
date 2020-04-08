@@ -85,7 +85,6 @@ C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\bin\Debug\
 C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\bin\Debug\netcoreapp2.2\CSFinder.pdb
 C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\bin\Debug\netcoreapp2.2\CSFinder.Views.dll
 C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\bin\Debug\netcoreapp2.2\CSFinder.Views.pdb
-C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.csprojAssemblyReference.cache
 C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.csproj.CoreCompileInputs.cache
 C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.RazorAssemblyInfo.cache
 C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.RazorAssemblyInfo.cs
@@ -192,3 +191,4 @@ D:\Project_OOD\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.dll
 D:\Project_OOD\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.pdb
 D:\Project_OOD\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.csproj.CopyComplete
 D:\Project_OOD\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Home\Register.cshtml.g.cs
+C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Home\Register.cshtml.g.cs
