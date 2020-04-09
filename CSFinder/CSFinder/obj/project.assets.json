@@ -13434,11 +13434,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\2562[2]\\OOD\\Project\\CSFinder\\CSFinder\\CSFinder\\CSFinder.csproj",
+      "projectUniqueName": "C:\\Users\\ASUS\\Desktop\\project ood\\CSFinder\\CSFinder\\CSFinder\\CSFinder\\CSFinder.csproj",
       "projectName": "CSFinder",
-      "projectPath": "C:\\Users\\ASUS\\Desktop\\2562[2]\\OOD\\Project\\CSFinder\\CSFinder\\CSFinder\\CSFinder.csproj",
+      "projectPath": "C:\\Users\\ASUS\\Desktop\\project ood\\CSFinder\\CSFinder\\CSFinder\\CSFinder\\CSFinder.csproj",
       "packagesPath": "C:\\Users\\ASUS\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ASUS\\Desktop\\2562[2]\\OOD\\Project\\CSFinder\\CSFinder\\CSFinder\\obj\\",
+      "outputPath": "C:\\Users\\ASUS\\Desktop\\project ood\\CSFinder\\CSFinder\\CSFinder\\CSFinder\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ASUS\\AppData\\Roaming\\NuGet\\NuGet.Config",
