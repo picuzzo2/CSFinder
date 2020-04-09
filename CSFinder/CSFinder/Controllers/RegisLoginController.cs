@@ -77,5 +77,40 @@ namespace CSFinder.Controllers
         {
             return View();
         }
+
+        [HttpGet]
+        public IActionResult Register(String type)
+        {
+            if(type == "Student")
+            {
+                return RedirectToAction("RegisStudent");
+            }
+            else if (type == "Company")
+            {
+                return RedirectToAction("RegisCompany");
+            }
+
+            return RedirectToAction("Register");
+        }
+
+        public IActionResult RegisStudent()
+        {
+            return View();
+        }
+
+        [HttpPost]
+        public IActionResult RegisStudent(Account objAccount, Student objStudent)
+        {
+            if(ModelState.IsValid)
+            {
+
+            }
+            return RedirectToAction("Login");
+        }
+
+        public IActionResult RegisCompany()
+        {
+            return View();
+        }
     }
 }
