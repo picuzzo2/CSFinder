@@ -9,6 +9,7 @@ using Microsoft.AspNetCore.Http;
 
 namespace CSFinder.Controllers
 {
+    [Route("Student")]
     public class StudentController : Controller
     {
         private CSFinderContext db;
@@ -26,27 +27,53 @@ namespace CSFinder.Controllers
             ViewBag.Status = HttpContext.Session.GetString("Status");
             return View();
         }
-        
+
         public IActionResult History()
         {
             return View();
         }
+
+        [Route("Profile")]
         public IActionResult Profile()
         {
+            ViewBag.studentName = "Anicha Harnpa";
+            ViewBag.studentStatus = "รอนัดสัมภาษณ์";
+            ViewBag.studentFirstname = "อณิชา";
+            ViewBag.studentLastname = "หารป่า";
+            ViewBag.studentAddress = "4 หมู่9 ต.หางดง อ.หางดง จ.เชียงใหม่ 50230";
+            ViewBag.studentPhone = "0903186625";
+            ViewBag.studentFacebook = "Anicha Harnpa";
+            ViewBag.studentEmail = "anicha_h@gmail.com";
+            ViewBag.studentRanking = "1. บริษัท ปูนซีเมนต์ไทย จำกัด (มหาชน)";
+            ViewBag.studentResume = "";
+            return View();
+        }
+
+        [Route("EditProfile")]
+        public IActionResult EditProfile()
+        {
+            ViewBag.studentName = "Anicha Harnpa";
+            ViewBag.studentStatus = "รอนัดสัมภาษณ์";
+            ViewBag.studentFirstname = "อณิชา";
+            ViewBag.studentLastname = "หารป่า";
+            ViewBag.studentAddress = "4 หมู่9 ต.หางดง อ.หางดง จ.เชียงใหม่ 50230";
+            ViewBag.studentPhone = "0903186625";
+            ViewBag.studentFacebook = "Anicha Harnpa";
+            ViewBag.studentEmail = "anicha_h@gmail.com";
+            ViewBag.studentRanking = "1. บริษัท ปูนซีเมนต์ไทย จำกัด (มหาชน)";
+            ViewBag.studentResume = "";
+            ViewBag.studentTranscript = "";
             return View();
         }
         public IActionResult Index()
         {
-            ViewBag.studentName = "Anicha";
             return View();
         }
         public IActionResult Logout()
         {
             HttpContext.Session.Clear();
-            return RedirectToAction("Login","RegisLogin");
+            return RedirectToAction("Login", "RegisLogin");
         }
-
-        [HttpGet]
         public IActionResult Register()
         {
             return View();
