@@ -194,3 +194,5 @@ C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\
 C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\TestStudent\Details.cshtml.g.cs
 C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Student\StudentDashBoard.cshtml.g.cs
 C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_StudentLayout.cshtml.g.cs
+C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\RegisLogin\RegisCompany.cshtml.g.cs
+C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\RegisLogin\RegisStudent.cshtml.g.cs
