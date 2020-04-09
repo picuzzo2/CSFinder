@@ -13,6 +13,7 @@ namespace CSFinder.Controllers
         public IActionResult Home()
         {
             ViewBag.studentName = "Earn";
+            ViewBag.kuy = "kuy";
             return View();
         }
     }

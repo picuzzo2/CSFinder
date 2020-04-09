@@ -1,6 +1,7 @@
 ﻿@model CSFinder.Models.Account
 @{
     ViewData["Title"] = "Login";
+    Layout = null;
 }
 
 @using (Html.BeginForm("Login", "Home", FormMethod.Post))
@@ -49,7 +50,7 @@
                 <tr>
                     <td>
                         <input type="submit" value="Login" />
-                        <a href="/home/register">Create New Account?</a>
+                        <a class="nav-link text-dark" asp-area="" asp-controller="RegisLogin" asp-action="Register">Create New Accout?</a>
                     </td>
                 </tr>
             </div>

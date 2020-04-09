@@ -51,9 +51,13 @@ namespace CSFinder.Controllers
                 if (IDType == "Student")
                 {
                     var obj = db.Students.Where(a => a.ID.Equals(HttpContext.Session.GetString("UserID"))).FirstOrDefault();
-                    ViewBag.SID = obj.SID.ToString();
-                    ViewBag.Name = obj.Name.ToString();
-                    ViewBag.Status = obj.Status.ToString();
+                    
+                    HttpContext.Session.SetString("SID", obj.SID.ToString());
+                    HttpContext.Session.SetString("Name", obj.Name.ToString());
+                    HttpContext.Session.SetString("Status", obj.Status.ToString());
+
+
+                    return RedirectToAction("StudentDashBoard", "Student");
                 }
                 else if (IDType == "Company")
                 {
@@ -61,14 +65,17 @@ namespace CSFinder.Controllers
 
                 }
 
-                ViewBag.UserID = HttpContext.Session.GetString("UserID");
-                ViewBag.IDType = HttpContext.Session.GetString("IDType");
-                return RedirectToAction("UserDashBoard","StudentHomeController");
+                return RedirectToAction("Login");
             }
             else
             {
                 return RedirectToAction("Login");
             }
+        }
+
+        public IActionResult Register()
+        {
+            return View();
         }
     }
 }
