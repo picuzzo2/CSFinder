@@ -52,7 +52,7 @@ namespace CSFinder
             {
                 routes.MapRoute(
                     name: "default",
-                    template: "{controller=Home}/{action=Login}/{id?}");
+                    template: "{controller=RegisLogin}/{action=Login}/{id?}");
             });
         }
     }

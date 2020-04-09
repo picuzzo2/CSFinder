@@ -95,7 +95,6 @@ C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\
 C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.RazorCoreGenerate.cache
 C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Home\History.cshtml.g.cs
 C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Home\Login.cshtml.g.cs
 C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Home\Logout.cshtml.g.cs
 C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Home\Profile.cshtml.g.cs
@@ -191,4 +190,9 @@ D:\Project_OOD\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.dll
 D:\Project_OOD\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.pdb
 D:\Project_OOD\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.csproj.CopyComplete
 D:\Project_OOD\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Home\Register.cshtml.g.cs
-C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Home\Register.cshtml.g.cs
+C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.csprojAssemblyReference.cache
+C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\RegisLogin\Login.cshtml.g.cs
+C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\RegisLogin\Register.cshtml.g.cs
+C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Home\test.cshtml.g.cs
+C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Conpany\Details.cshtml.g.cs
+C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\ComSci\Home.cshtml.g.cs
