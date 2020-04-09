@@ -23,5 +23,25 @@ namespace CSFinder.Controllers
             ViewBag.students = db.Students.ToList();
             return View();
         }
+        [Route("Home")]
+        public IActionResult Home()
+        {
+            return View();
+        }
+        [Route("Profile")]
+        public IActionResult Profile()
+        {
+            return View();
+        }
+        [Route("History")]
+        public IActionResult History()
+        {
+            return View();
+        }
+        [Route("Logout")]
+        public IActionResult Logout()
+        {
+            return View();
+        }
     }
 }

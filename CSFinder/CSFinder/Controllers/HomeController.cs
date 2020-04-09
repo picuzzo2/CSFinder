@@ -86,7 +86,7 @@ namespace CSFinder.Controllers
         }
         public IActionResult Logout()
         {
-            return View();
+            return RedirectToAction("Login");
         }
         public IActionResult Register()
         {
