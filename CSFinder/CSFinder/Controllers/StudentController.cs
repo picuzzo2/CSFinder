@@ -9,7 +9,7 @@ using Microsoft.AspNetCore.Http;
 
 namespace CSFinder.Controllers
 {
-    [Route("Student")]
+    
     public class StudentController : Controller
     {
         private CSFinderContext db;
@@ -33,7 +33,7 @@ namespace CSFinder.Controllers
             return View();
         }
 
-        [Route("Profile")]
+        
         public IActionResult Profile()
         {
             ViewBag.studentName = "Anicha Harnpa";
@@ -49,7 +49,7 @@ namespace CSFinder.Controllers
             return View();
         }
 
-        [Route("EditProfile")]
+        
         public IActionResult EditProfile()
         {
             ViewBag.studentName = "Anicha Harnpa";

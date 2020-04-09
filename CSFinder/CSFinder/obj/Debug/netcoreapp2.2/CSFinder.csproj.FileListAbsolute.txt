@@ -237,3 +237,6 @@ C:\Users\Lenovo\Desktop\csfinder\csfinder-profile\CSFinder\CSFinder\obj\Debug\ne
 C:\Users\Lenovo\Desktop\csfinder\csfinder-profile\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.pdb
 C:\Users\Lenovo\Desktop\csfinder\csfinder-profile\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.csproj.CopyComplete
 C:\Users\Lenovo\Desktop\csfinder\csfinder-profile\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Student\EditProfile.cshtml.g.cs
+C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\RegisLogin\RegisCompany.cshtml.g.cs
+C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\RegisLogin\RegisStudent.cshtml.g.cs
+C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Student\EditProfile.cshtml.g.cs
