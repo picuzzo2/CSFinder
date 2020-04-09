@@ -4,7 +4,7 @@
     Layout = null;
 }
 
-@using (Html.BeginForm("Login", "Home", FormMethod.Post))
+@using (Html.BeginForm("Login", "Student", FormMethod.Post))
 {
     <br>
     <br>
@@ -49,8 +49,12 @@
                 </div><br>
                 <tr>
                     <td>
-                        <input type="submit" value="Login" />
-                        <a class="nav-link text-dark" asp-area="" asp-controller="RegisLogin" asp-action="Register">Create New Accout?</a>
+                        <input type="submit" value="Login" /> <b>
+                        <p>Create New Accout for 
+                        <a class="nav-link text-dark" asp-area="" asp-controller="RegisLogin" asp-action="RegisStudent">student</a>
+                         or  
+                        <a class="nav-link text-dark" asp-area="" asp-controller="RegisLogin" asp-action="RegisCompany">company</a>
+                        </p>
                     </td>
                 </tr>
             </div>

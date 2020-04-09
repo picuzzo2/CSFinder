@@ -45,6 +45,8 @@ namespace CSFinder.Controllers
             HttpContext.Session.Clear();
             return RedirectToAction("Login","RegisLogin");
         }
+
+        [HttpGet]
         public IActionResult Register()
         {
             return View();

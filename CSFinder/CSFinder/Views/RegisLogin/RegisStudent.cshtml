@@ -1,0 +1,60 @@
+﻿@model CSFinder.Models.Student
+@{
+    ViewData["Title"] = "RegisStudent";
+}
+
+<h1>RegisStudent</h1>
+<div class="RegisStudent">
+    <table>
+        <tr>
+            <td>@Html.LabelFor(a => a.SID)</td>
+            <td>@Html.TextBoxFor(a => a.SID)</td>
+            <td>@Html.ValidationMessageFor(a => a.SID)</td>
+        </tr>
+    </table>
+</div>
+<br>
+<div class="RegisStudent">
+    <table>
+        <tr>
+            <td>@Html.LabelFor(a => a.Name)</td>
+            <td>@Html.TextBoxFor(a => a.Name)</td>
+            <td>@Html.ValidationMessageFor(a => a.Name)</td>
+        </tr>
+    </table>
+</div>
+<br>
+<div class="RegisStudent">
+    <table>
+        <tr>
+            <td>@Html.LabelFor(a => a.Email)</td>
+            <td>@Html.TextBoxFor(a => a.Email)</td>
+            <td>@Html.ValidationMessageFor(a => a.Email)</td>
+        </tr>
+    </table>
+</div>
+<br>
+<div class="RegisStudent">
+    <table>
+        <tr>
+            <td>@Html.LabelFor(a => a.Phone)</td>
+            <td>@Html.TextBoxFor(a => a.Phone)</td>
+            <td>@Html.ValidationMessageFor(a => a.Phone)</td>
+        </tr>
+    </table>
+</div>
+<br>
+<div class="RegisStudent">
+    <table>
+        <tr>
+            <td>@Html.LabelFor(a => a.Detail)</td>
+            <td>@Html.TextBoxFor(a => a.Detail)</td>
+            <td>@Html.ValidationMessageFor(a => a.Detail)</td>
+        </tr>
+    </table>
+</div>
+<br>
+<tr>
+    <td>
+        <input type="submit" value="Register" /> <b>
+

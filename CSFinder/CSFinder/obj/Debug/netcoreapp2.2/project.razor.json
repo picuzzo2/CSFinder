@@ -2961,28 +2961,28 @@
   "RootNamespace": "CSFinder",
   "Documents": [
     {
-      "FilePath": "c:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\Views\\Home\\UserDashBoard.cshtml",
-      "TargetPath": "Views\\Home\\UserDashBoard.cshtml",
+      "FilePath": "c:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\Views\\Student\\Profile.cshtml",
+      "TargetPath": "Views\\Student\\Profile.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\Views\\Shared\\_Layout.cshtml",
-      "TargetPath": "Views\\Shared\\_Layout.cshtml",
+      "FilePath": "c:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\Views\\ComSci\\Home.cshtml",
+      "TargetPath": "Views\\ComSci\\Home.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\Views\\Home\\Index.cshtml",
-      "TargetPath": "Views\\Home\\Index.cshtml",
+      "FilePath": "c:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\Views\\TestStudent\\Details.cshtml",
+      "TargetPath": "Views\\TestStudent\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\Views\\Home\\History.cshtml",
-      "TargetPath": "Views\\Home\\History.cshtml",
+      "FilePath": "c:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\Views\\RegisLogin\\Login.cshtml",
+      "TargetPath": "Views\\RegisLogin\\Login.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\Views\\Home\\Login.cshtml",
-      "TargetPath": "Views\\Home\\Login.cshtml",
+      "FilePath": "c:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\Views\\Company\\Details.cshtml",
+      "TargetPath": "Views\\Company\\Details.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -2991,23 +2991,23 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\Views\\Shared\\_StudentLayout.cshtml",
+      "TargetPath": "Views\\Shared\\_StudentLayout.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\Views\\_ViewImports.cshtml",
       "TargetPath": "Views\\_ViewImports.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\Views\\Home\\Privacy.cshtml",
-      "TargetPath": "Views\\Home\\Privacy.cshtml",
+      "FilePath": "c:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\Views\\RegisLogin\\RegisCompany.cshtml",
+      "TargetPath": "Views\\RegisLogin\\RegisCompany.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\Views\\Student\\Details.cshtml",
-      "TargetPath": "Views\\Student\\Details.cshtml",
-      "FileKind": "mvc"
-    },
-    {
-      "FilePath": "c:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\Views\\Home\\Profile.cshtml",
-      "TargetPath": "Views\\Home\\Profile.cshtml",
+      "FilePath": "c:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\Views\\Student\\Index.cshtml",
+      "TargetPath": "Views\\Student\\Index.cshtml",
       "FileKind": "mvc"
     },
     {
@@ -3016,13 +3016,33 @@
       "FileKind": "mvc"
     },
     {
+      "FilePath": "c:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\Views\\Student\\StudentDashBoard.cshtml",
+      "TargetPath": "Views\\Student\\StudentDashBoard.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\Views\\Shared\\_Layout1.cshtml",
+      "TargetPath": "Views\\Shared\\_Layout1.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\Views\\RegisLogin\\RegisStudent.cshtml",
+      "TargetPath": "Views\\RegisLogin\\RegisStudent.cshtml",
+      "FileKind": "mvc"
+    },
+    {
       "FilePath": "c:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\Views\\_ViewStart.cshtml",
       "TargetPath": "Views\\_ViewStart.cshtml",
       "FileKind": "mvc"
     },
     {
-      "FilePath": "c:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\Views\\Home\\Logout.cshtml",
-      "TargetPath": "Views\\Home\\Logout.cshtml",
+      "FilePath": "c:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\Views\\Student\\History.cshtml",
+      "TargetPath": "Views\\Student\\History.cshtml",
+      "FileKind": "mvc"
+    },
+    {
+      "FilePath": "c:\\Users\\MSI\\CSFinder\\CSFinder\\CSFinder\\Views\\RegisLogin\\Register.cshtml",
+      "TargetPath": "Views\\RegisLogin\\Register.cshtml",
       "FileKind": "mvc"
     },
     {
