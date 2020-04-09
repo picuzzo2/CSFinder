@@ -123,18 +123,9 @@ C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.Assembl
 C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.TagHelpers.input.cache
 C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.TagHelpers.output.cache
 C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.RazorCoreGenerate.cache
-C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Home\History.cshtml.g.cs
-C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Home\Login.cshtml.g.cs
-C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Home\Logout.cshtml.g.cs
-C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Home\Privacy.cshtml.g.cs
-C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Home\Profile.cshtml.g.cs
-C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Home\UserDashBoard.cshtml.g.cs
 C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_CookieConsentPartial.cshtml.g.cs
-C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_ValidationScriptsPartial.cshtml.g.cs
-C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Student\Details.cshtml.g.cs
 C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\_ViewImports.cshtml.g.cs
 C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\_ViewStart.cshtml.g.cs
 C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\CSFinder.RazorTargetAssemblyInfo.cache
@@ -194,3 +185,18 @@ C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\
 C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\TestStudent\Details.cshtml.g.cs
 C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Student\StudentDashBoard.cshtml.g.cs
 C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_StudentLayout.cshtml.g.cs
+C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\RegisLogin\RegisCompany.cshtml.g.cs
+C:\Users\ASUS\Desktop\project ood\CSFinder\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\RegisLogin\RegisStudent.cshtml.g.cs
+C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Company\Details.cshtml.g.cs
+C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\ComSci\Home.cshtml.g.cs
+C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\RegisLogin\Login.cshtml.g.cs
+C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\RegisLogin\RegisCompany.cshtml.g.cs
+C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\RegisLogin\RegisStudent.cshtml.g.cs
+C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\RegisLogin\Register.cshtml.g.cs
+C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_Layout1.cshtml.g.cs
+C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Shared\_StudentLayout.cshtml.g.cs
+C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Student\History.cshtml.g.cs
+C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Student\Index.cshtml.g.cs
+C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Student\Profile.cshtml.g.cs
+C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Student\StudentDashBoard.cshtml.g.cs
+C:\Users\MSI\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\TestStudent\Details.cshtml.g.cs

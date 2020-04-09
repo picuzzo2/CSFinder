@@ -73,25 +73,6 @@ namespace CSFinder.Controllers
             }
         }
 
-        public IActionResult Register()
-        {
-            return View();
-        }
-
-        [HttpGet]
-        public IActionResult Register(String type)
-        {
-            if(type == "Student")
-            {
-                return RedirectToAction("RegisStudent");
-            }
-            else if (type == "Company")
-            {
-                return RedirectToAction("RegisCompany");
-            }
-
-            return RedirectToAction("Register");
-        }
 
         public IActionResult RegisStudent()
         {
@@ -99,12 +80,19 @@ namespace CSFinder.Controllers
         }
 
         [HttpPost]
-        public IActionResult RegisStudent(Account objAccount, Student objStudent)
+        public IActionResult RegisStudent(StudentAccount obj)
         {
-            if(ModelState.IsValid)
-            {
+            obj.account.IDtype = "Student";
 
-            }
+                Debug.WriteLine(obj.account.ID);
+                Debug.WriteLine(obj.account.Password);
+                Debug.WriteLine(obj.confirmPassword);
+                Debug.WriteLine(obj.student.SID);
+                Debug.WriteLine(obj.student.Name);
+                Debug.WriteLine(obj.student.Email);
+                Debug.WriteLine(obj.student.Phone);
+                Debug.WriteLine(obj.student.Detail);
+            Debug.WriteLine(obj.account.Password == obj.confirmPassword);
             return RedirectToAction("Login");
         }
 

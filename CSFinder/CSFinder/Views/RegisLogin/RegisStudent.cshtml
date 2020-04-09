@@ -1,60 +1,126 @@
-﻿@model CSFinder.Models.Student
+﻿@model CSFinder.Models.StudentAccount
 @{
     ViewData["Title"] = "RegisStudent";
+    Layout = null;
 }
 
-<h1>RegisStudent</h1>
-<div class="RegisStudent">
-    <table>
-        <tr>
-            <td>@Html.LabelFor(a => a.SID)</td>
-            <td>@Html.TextBoxFor(a => a.SID)</td>
-            <td>@Html.ValidationMessageFor(a => a.SID)</td>
-        </tr>
-    </table>
-</div>
-<br>
-<div class="RegisStudent">
-    <table>
-        <tr>
-            <td>@Html.LabelFor(a => a.Name)</td>
-            <td>@Html.TextBoxFor(a => a.Name)</td>
-            <td>@Html.ValidationMessageFor(a => a.Name)</td>
-        </tr>
-    </table>
-</div>
-<br>
-<div class="RegisStudent">
-    <table>
-        <tr>
-            <td>@Html.LabelFor(a => a.Email)</td>
-            <td>@Html.TextBoxFor(a => a.Email)</td>
-            <td>@Html.ValidationMessageFor(a => a.Email)</td>
-        </tr>
-    </table>
-</div>
-<br>
-<div class="RegisStudent">
-    <table>
-        <tr>
-            <td>@Html.LabelFor(a => a.Phone)</td>
-            <td>@Html.TextBoxFor(a => a.Phone)</td>
-            <td>@Html.ValidationMessageFor(a => a.Phone)</td>
-        </tr>
-    </table>
-</div>
-<br>
-<div class="RegisStudent">
-    <table>
-        <tr>
-            <td>@Html.LabelFor(a => a.Detail)</td>
-            <td>@Html.TextBoxFor(a => a.Detail)</td>
-            <td>@Html.ValidationMessageFor(a => a.Detail)</td>
-        </tr>
-    </table>
-</div>
-<br>
-<tr>
-    <td>
-        <input type="submit" value="Register" /> <b>
 
+@using (Html.BeginForm("RegisStudent", "RegisLogin", FormMethod.Post))
+
+{
+    <style>
+        .RegisStudent {
+            padding: 20px;          
+        }
+        .ID{
+            padding-right: 110px;
+        }
+        .Password{
+            padding-right: 65px;
+        }
+        .confirmPassword{
+            padding-right: 15px;
+        }
+        .SID{
+            padding-right: 100px;
+        }
+        .Name{
+            padding-right: 85px;
+        }
+        .Email{
+            padding-right: 85px;
+        }
+        .Phone{
+            padding-right: 85px;
+        }
+        .Detail{
+            padding-right: 85px;
+        }
+        .button{
+            margin-left:20px;
+        }
+    </style>
+
+    <div class="RegisStudent">
+        <table>
+            <tr>
+                <td class="ID" >@Html.LabelFor(a => a.account.ID)</td>
+                <td>@Html.TextBoxFor(a => a.account.ID)</td>
+                <td>@Html.ValidationMessageFor(a => a.student.ID)</td>
+            </tr>
+        </table>
+    </div>
+    <div class="RegisStudent">
+        <table>
+            <tr>
+                <td class="Password">@Html.LabelFor(a => a.account.Password)</td>
+                <td>@Html.PasswordFor(a => a.account.Password)</td>
+                <td>@Html.ValidationMessageFor(a => a.account.Password)</td>
+            </tr>
+        </table>
+    </div>
+    <div class="RegisStudent">
+        <table>
+            <tr>
+                <td class="confirmPassword">@Html.LabelFor(a => a.confirmPassword)</td>
+                <td>@Html.PasswordFor(a => a.confirmPassword)</td>
+                <td>@Html.ValidationMessageFor(a => a.confirmPassword)</td>
+            </tr>
+        </table>
+    </div>
+    <div class="RegisStudent">
+        <table>
+            <tr>
+                <td class="SID">@Html.LabelFor(a => a.student.SID)</td>
+                <td>@Html.TextBoxFor(a => a.student.SID)</td>
+                <td>@Html.ValidationMessageFor(a => a.student.SID)</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div class="RegisStudent">
+        <table>
+            <tr>
+                <td class="Name">@Html.LabelFor(a => a.student.Name)</td>
+                <td>@Html.TextBoxFor(a => a.student.Name)</td>
+                <td>@Html.ValidationMessageFor(a => a.student.Name)</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div class="RegisStudent">
+        <table>
+            <tr>
+                <td class="Email">@Html.LabelFor(a => a.student.Email)</td>
+                <td>@Html.TextBoxFor(a => a.student.Email)</td>
+                <td>@Html.ValidationMessageFor(a => a.student.Email)</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div class="RegisStudent">
+        <table>
+            <tr>
+                <td class="Phone">@Html.LabelFor(a => a.student.Phone)</td>
+                <td>@Html.TextBoxFor(a => a.student.Phone)</td>
+                <td>@Html.ValidationMessageFor(a => a.student.Phone)</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <div class="RegisStudent">
+        <table>
+            <tr>
+                <td class="Detail">@Html.LabelFor(a => a.student.Detail)</td>
+                <td>@Html.TextBoxFor(a => a.student.Detail)</td>
+                <td>@Html.ValidationMessageFor(a => a.student.Detail)</td>
+            </tr>
+        </table>
+    </div>
+    <br>
+    <tr>
+        <td>
+            <input class="button" type="submit" value="Register" /> <b>
+        </td>
+    </tr>
+}
