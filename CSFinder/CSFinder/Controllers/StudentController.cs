@@ -41,7 +41,7 @@ namespace CSFinder.Controllers
         [Route("Logout")]
         public IActionResult Logout()
         {
-            return View();
+            return RedirectToAction("Login", "Home");
         }
     }
 }

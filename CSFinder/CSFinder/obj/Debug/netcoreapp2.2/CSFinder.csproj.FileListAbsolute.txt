@@ -195,4 +195,3 @@ D:\Project_OOD\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Ho
 D:\Project_OOD\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Student\Profile.cshtml.g.cs
 D:\Project_OOD\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Student\Home.cshtml.g.cs
 D:\Project_OOD\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Student\History.cshtml.g.cs
-D:\Project_OOD\CSFinder\CSFinder\CSFinder\obj\Debug\netcoreapp2.2\Razor\Views\Student\Logout.cshtml.g.cs
